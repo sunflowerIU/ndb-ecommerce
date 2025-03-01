@@ -313,6 +313,7 @@ body {
 }
 body {
   letter-spacing: 0.03em;
+  font-family: "Arial", "Roboto", "San Francisco", Sans-serif;
 }
 h1,
 h2,
@@ -453,7 +454,7 @@ h6 {
 
 /* banner ad */
 .banner-ad {
-  position: relative;
+  position: static;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -656,6 +657,7 @@ h6 {
   max-width: 100%;
   max-height: 100%;
 }
+
 #logo-size {
   max-width: 30%;
   max-height: 30%;
@@ -705,6 +707,9 @@ h6 {
 }
 .product-item .rating iconify-icon {
   color: #ffc43f;
+}
+.price {
+  letter-spacing: 0.5px;
 }
 .product-item .price {
   display: block;
@@ -836,4 +841,21 @@ del::after {
   .product-thumbnail-slider {
     height: 740px;
   }
+}
+
+/* Update Footer Styling */
+.footer-menu {
+  text-align: center;
+}
+
+.footer-menu img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-menu .site-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  margin-top: 10px;
 }

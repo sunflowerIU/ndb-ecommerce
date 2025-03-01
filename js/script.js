@@ -189,10 +189,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
                         ${
                           product.discount
-                            ? `<strong class="text-danger text-dark">&#8360 ${
+                            ? `<span >&#8360 ${
                                 product.price -
                                 (product.discount / 100) * product.price
-                              }</strong>`
+                              }</span>`
                             : ""
                         }
                       </span>
