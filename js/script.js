@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch(url)
     .then((res) => res.json())
     .then((products) => {
-      console.log(products);
+      // console.log(products);
       let container_all = document.getElementById("product-all");
       let container_bottle = document.getElementById("product-bottle");
       let container_thermos = document.getElementById("product-thermos");
