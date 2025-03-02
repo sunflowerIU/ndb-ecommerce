@@ -859,3 +859,9 @@ del::after {
   color: #222;
   margin-top: 10px;
 }
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    margin-bottom: 100px;
+  }
+}
